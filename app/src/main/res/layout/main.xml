@@ -13,7 +13,7 @@
         android:layout_margin="10dp"
         android:ems="10"
         android:hint="enter the value of A"
-        android:inputType="textPersonName" />
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/editTextValueB"
@@ -22,7 +22,7 @@
         android:layout_margin="10dp"
         android:ems="10"
         android:hint="enter the value of B"
-        android:inputType="textPersonName" />
+        android:inputType="number" />
 
     <Button
         android:id="@+id/buttonAdd"
@@ -36,12 +36,12 @@
         android:id="@+id/buttonMul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Multiplication" />
 
     <TextView
         android:layout_margin="10dp"
         android:id="@+id/textViewResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Result is :" />
 </LinearLayout>
